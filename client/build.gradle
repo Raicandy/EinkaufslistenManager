@@ -1,0 +1,13 @@
+apply plugin: 'application'
+
+mainClassName = 'Einkaufsliste.client.ClientInterface'
+run {
+
+standardInput = System.in
+
+}
+
+dependencies {
+    compile project(':core')
+    compile 'commons-httpclient:commons-httpclient:3.1'
+}

@@ -1,0 +1,12 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+jettyRunWar.contextPath = '';
+jettyRun.contextPath = '';
+
+dependencies {
+    compile project(':core')
+    compile 'org.glassfish.jersey.containers:jersey-container-servlet:+'
+    compile 'org.glassfish.jersey.media:jersey-media-moxy:+'
+    testCompile 'org.mockito:mockito-core:+'
+}

@@ -1,0 +1,12 @@
+subprojects{
+	apply plugin: "java"
+	
+	repositories {
+		mavenCentral()
+	}
+	
+	dependencies {
+		testCompile 'junit:junit:+'
+		testCompile 'commons-lang:commons-lang:+'
+	}
+}
