@@ -1,6 +1,6 @@
 apply plugin: 'application'
 
-mainClassName = 'Einkaufsliste.client.ClientInterface'
+mainClassName = 'Einkaufsliste.client.Tester'
 run {
 
 standardInput = System.in

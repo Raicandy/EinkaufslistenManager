@@ -64,7 +64,7 @@ public class Tester {
         Tester.save("/home/raicandy/Desktop/Testlisten.xml");
         
         System.out.println("###################### Listen oeffnen ######################");
-        Tester.open("/home/raicandy/Desktop/Testlisten.xml");
+        Tester.open("C:\\Testliste.xml.xml");
 
         //Liste der Listen anzeigen.
         System.out.println("###################### Listenliste anzeigen ######################");
